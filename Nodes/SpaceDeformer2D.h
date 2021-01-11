@@ -31,4 +31,5 @@ protected:
 	GMMDenseComplexColMatrix mCageVertices; //this matrix is actually a column vector. dimensions are: n x 1
 	GMMDenseComplexColMatrix mCoordinates; //this matrix is actually a column vector. dimensions are: m x n
 	GMMDenseComplexColMatrix mInternalPoints; //this matrix is actually a column vector. dimensions are: m x 1
+	GMMDenseComplexColMatrix mOuterCageCoordinates; //this matrix is actually a column vector. dimensions are: m x n
 };
